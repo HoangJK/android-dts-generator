@@ -45,6 +45,8 @@ Extract the classes.jar and any dependencies it may have inside libs/
 Rename classes.jar if necessary
 ```
 ```shell
+cd dts-generator
+./gradlew jar
 java -jar build\libs\dts-generator.jar -input classes.jar dependency-of-classes-jar.jar
 ```
 
